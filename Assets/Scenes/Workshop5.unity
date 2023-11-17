@@ -1859,6 +1859,7 @@ GameObject:
   - component: {fileID: 1096216076}
   - component: {fileID: 1096216079}
   - component: {fileID: 1096216080}
+  - component: {fileID: 1096216081}
   m_Layer: 0
   m_Name: XR Origin (XR Rig)
   m_TagString: Untagged
@@ -1940,6 +1941,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   craigBtn: {fileID: 70124902}
   patrickBtn: {fileID: 1606703580}
+--- !u!114 &1096216081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096216075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &1098888421
 GameObject:
   m_ObjectHideFlags: 0
