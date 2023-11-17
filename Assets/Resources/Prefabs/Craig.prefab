@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 3877808045797401057}
   - component: {fileID: 7177419788219750939}
   m_Layer: 0
-  m_Name: WhiteInteractableObject
+  m_Name: Craig
   m_TagString: knight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
