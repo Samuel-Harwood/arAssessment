@@ -158,7 +158,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_XROrigin: {fileID: 0}
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 0}
-  m_PlacementPrefab: {fileID: 2234367242061925564, guid: ecca1da4f4d21a44e8ec89170f35d546, type: 3}
+  m_PlacementPrefab: {fileID: 2394549183449122879, guid: a4b180e6628cf9440bd3b75a8a22f011, type: 3}
   m_FallbackLayerMask:
     serializedVersion: 2
     m_Bits: 0
@@ -2293,7 +2293,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 705507995}
+  - {fileID: 483906483}
   - {fileID: 1065105798}
   - {fileID: 1096216078}
-  - {fileID: 483906483}
   - {fileID: 264764961}
