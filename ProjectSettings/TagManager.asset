@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - knight
+  - apple
   layers:
   - Default
   - TransparentFX
