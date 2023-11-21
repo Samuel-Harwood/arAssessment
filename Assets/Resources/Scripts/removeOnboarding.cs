@@ -6,18 +6,18 @@ using UnityEngine.XR.ARFoundation;
 public class removeOnboarding : MonoBehaviour
 {
     private ARPlaneManager arPlaneManager;
+
     public GameObject scanRoom;
     public GameObject tapToPlace;
-    public GameObject apple;
-    //public event Action<InteractableRegisteredEventArgs> interactableRegistered;
+    public GameObject spawnedObject;
 
     public void Start()
     {
         // Get the ARPlaneManager component
         arPlaneManager = GetComponent<ARPlaneManager>();
+
         scanRoom.SetActive(true);
         tapToPlace.SetActive(false);
-
         // Enable plane detection
         if (arPlaneManager != null)
         {
@@ -26,21 +26,15 @@ public class removeOnboarding : MonoBehaviour
 
     }
 
-    public void update()
+    public void Update()
     {
-        if (!scanRoom.activeSelf && arPlaneManager.trackables.count < 1)
+
+        if (!scanRoom.activeSelf) 
         {
             tapToPlace.SetActive(true);
-            //arPlaneManager.planesChanged -= OnPlanesChanged;
-
-
         }
-        if (arPlaneManager.trackables.count > 0)
-        {
 
-            tapToPlace.SetActive(false);
 
-        }
     }
    
      
@@ -54,12 +48,7 @@ public class removeOnboarding : MonoBehaviour
             scanRoom.SetActive(false);
 
         }
-        //if (args.removed.Count > 0)
-        //{
-        //    // Disable the specified game object
-        //    tapToPlace.SetActive(false);
 
-        //}
 
 
     }

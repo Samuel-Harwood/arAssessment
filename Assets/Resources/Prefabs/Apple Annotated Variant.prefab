@@ -392,15 +392,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8621241045491537052, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8621241045491537052, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8621241045491537052, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8621241045491537052, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -444,7 +444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8621241045491537052, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -570,8 +570,8 @@ MonoBehaviour:
   m_Annotations:
   - m_AnnotationVisualization: {fileID: 4264084975067085231}
     m_MaxFOVCenterOffsetAngle: 3.14
-    m_MinAnnotationRange: 0
-    m_MaxAnnotationRange: 10
+    m_MinAnnotationRange: 0.5
+    m_MaxAnnotationRange: 2
 --- !u!4 &6060742238502157293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7156415279097520822, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
