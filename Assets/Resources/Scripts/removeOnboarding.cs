@@ -9,13 +9,12 @@ public class removeOnboarding : MonoBehaviour
 
     public GameObject scanRoom;
     public GameObject tapToPlace;
-    public GameObject spawnedObject;
 
     public void Start()
     {
         // Get the ARPlaneManager component
         arPlaneManager = GetComponent<ARPlaneManager>();
-
+;
         scanRoom.SetActive(true);
         tapToPlace.SetActive(false);
         // Enable plane detection
@@ -26,14 +25,15 @@ public class removeOnboarding : MonoBehaviour
 
     }
 
-    public void Update()
+    public void FixedUpdate()
     {
+
+        //tapToPlace.SetActive(!tapToPlace.activeSelf);
 
         if (!scanRoom.activeSelf) 
         {
             tapToPlace.SetActive(true);
         }
-
 
     }
    

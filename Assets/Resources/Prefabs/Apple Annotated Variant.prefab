@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7125894407370870620}
   m_Layer: 0
   m_Name: AR Annotation Holder
-  m_TagString: Untagged
+  m_TagString: apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -386,9 +386,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2743816114183278734, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      propertyPath: m_TagString
+      value: apple
+      objectReference: {fileID: 0}
     - target: {fileID: 7234245502813113572, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_Name
       value: Apple Annotated Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7321199333294874729, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      propertyPath: m_TagString
+      value: apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 8374548086427012435, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      propertyPath: m_TagString
+      value: apple
       objectReference: {fileID: 0}
     - target: {fileID: 8621241045491537052, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_LocalScale.x
@@ -446,6 +458,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8751229799316465879, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      propertyPath: m_TagString
+      value: apple
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -456,6 +472,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7234245502813113572, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       insertIndex: -1
       addedObject: {fileID: -7391637597659262162}
+    - targetCorrespondingSourceObject: {fileID: 7234245502813113572, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096952159258367105}
   m_SourcePrefab: {fileID: 100100000, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
 --- !u!1 &5992486560699635135 stripped
 GameObject:
@@ -572,6 +591,19 @@ MonoBehaviour:
     m_MaxFOVCenterOffsetAngle: 3.14
     m_MinAnnotationRange: 0.5
     m_MaxAnnotationRange: 2
+--- !u!114 &2096952159258367105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5992486560699635135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e06673c7fa35324990a9bdeb988c0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taptoplace: {fileID: 0}
 --- !u!4 &6060742238502157293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7156415279097520822, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
