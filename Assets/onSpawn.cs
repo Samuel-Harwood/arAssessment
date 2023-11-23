@@ -11,6 +11,7 @@ public class onSpawn : MonoBehaviour
 
         foreach (GameObject spawnObject in spawn)
         {
+            spawnObject.SetActive(false);
             Destroy(spawnObject);
         }
     }

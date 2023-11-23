@@ -8,7 +8,18 @@ public class DisableButtonOnRaycast : MonoBehaviour
 
     private void Start()
     {
-        // Get the button component
+  
+       
+    }
+
+    public void killApple()
+    {
+        GameObject[] apple = GameObject.FindGameObjectsWithTag("apple");
+
+        foreach (GameObject app in apple)
+        {
+            app.SetActive(false);
+        }
     }
 
     private void Update()

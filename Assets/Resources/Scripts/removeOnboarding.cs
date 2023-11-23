@@ -7,16 +7,17 @@ public class removeOnboarding : MonoBehaviour
 {
     private ARPlaneManager arPlaneManager;
 
-    public GameObject scanRoom;
-    public GameObject tapToPlace;
+    public GameObject onboarding1;
+    public GameObject onboarding2;
+    private bool onboardingDisplayed = false;
 
     public void Start()
     {
         // Get the ARPlaneManager component
         arPlaneManager = GetComponent<ARPlaneManager>();
-;
-        scanRoom.SetActive(true);
-        tapToPlace.SetActive(false);
+
+        //scanRoom.SetActive(true);
+        //tapToPlace.SetActive(false);
         // Enable plane detection
         if (arPlaneManager != null)
         {
@@ -25,31 +26,28 @@ public class removeOnboarding : MonoBehaviour
 
     }
 
-    public void FixedUpdate()
-    {
 
-        //tapToPlace.SetActive(!tapToPlace.activeSelf);
-
-        if (!scanRoom.activeSelf) 
-        {
-            tapToPlace.SetActive(true);
-        }
-
-    }
-   
      
 
     private void OnPlanesChanged(ARPlanesChangedEventArgs args)
     {
-
-        if (args.added.Count > 0)
+        if (!onboardingDisplayed && args.added.Count > 0)
         {
-            // Disable the specified game object
-            scanRoom.SetActive(false);
 
+            ToggleOnboardingSets();
+
+            // Set onboardingDisplayed to true once onboarding is displayed
+            onboardingDisplayed = true;
         }
 
 
 
+    }
+
+    private void ToggleOnboardingSets()
+    {
+        // Toggle between sets of onboarding messages
+        onboarding1.SetActive(!onboarding1.activeSelf);
+        onboarding2.SetActive(!onboarding2.activeSelf);
     }
 }
