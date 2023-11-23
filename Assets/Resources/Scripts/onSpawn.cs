@@ -8,7 +8,12 @@ public class onSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
 
+        //foreach (GameObject tre in treasure)
+        //{
+        //    tre.SetActive(true);
+        //}
 
 
         GameObject[] spawn = GameObject.FindGameObjectsWithTag("spawn");

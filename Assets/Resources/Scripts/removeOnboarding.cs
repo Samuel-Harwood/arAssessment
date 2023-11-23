@@ -10,7 +10,6 @@ public class removeOnboarding : MonoBehaviour
     public GameObject onboarding1;
     public GameObject onboarding2;
     private bool onboardingDisplayed = false;
-
     public void Start()
     {
         // Get the ARPlaneManager component
@@ -26,8 +25,11 @@ public class removeOnboarding : MonoBehaviour
 
     }
 
+
+
     private void OnPlanesChanged(ARPlanesChangedEventArgs args)
     {
+   
         if (!onboardingDisplayed && args.added.Count > 0)
         {
 
