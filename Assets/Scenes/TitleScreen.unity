@@ -2765,23 +2765,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654129555}
   m_CullTransparentMesh: 1
---- !u!1 &1679544052 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2870553078654000806, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
-  m_PrefabInstance: {fileID: 8172708316233569532}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1679544054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679544052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aeda7204a942c4cb4e93184712d348, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1820724109 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4136635638699444183, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
@@ -3147,10 +3130,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Press
       objectReference: {fileID: 0}
-    - target: {fileID: 4136635638699444183, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6450419169940561335, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 502.31427
@@ -3191,14 +3170,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3163989717455609805, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2870553078654000806, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1679544054}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 834bcd47428bc7c4595cbda6498265ae, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
