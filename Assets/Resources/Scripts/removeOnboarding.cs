@@ -26,9 +26,6 @@ public class removeOnboarding : MonoBehaviour
 
     }
 
-
-     
-
     private void OnPlanesChanged(ARPlanesChangedEventArgs args)
     {
         if (!onboardingDisplayed && args.added.Count > 0)
@@ -51,3 +48,4 @@ public class removeOnboarding : MonoBehaviour
         onboarding2.SetActive(!onboarding2.activeSelf);
     }
 }
+
