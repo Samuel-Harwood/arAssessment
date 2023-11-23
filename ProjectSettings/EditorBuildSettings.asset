@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Workshop5.unity
     guid: fa9a6b39ccd820e44926f58039ff10aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TitleScreen.unity
     guid: 9fe03a7027bfd8940a7ed094512957f1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Workshop4.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RulesScreen.unity
     guid: 0926bbaca2d39ed45a7f0c30658a7072
   - enabled: 1
