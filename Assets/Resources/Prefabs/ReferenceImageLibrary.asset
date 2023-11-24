@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 5033304017925552800
-  m_GuidHigh: 8304530715451602574
+  m_GuidLow: 4828892071624840981
+  m_GuidHigh: 7613574894158615436
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5705437615194117174
-      m_GuidHigh: 14119239142660829610
+      m_GuidLow: 5342016581941332142
+      m_GuidHigh: 1627017514955970491
     m_SerializedTextureGuid:
-      m_GuidLow: 16628482572345730051
-      m_GuidHigh: 17051437389807077400
+      m_GuidLow: 13358833466716449030
+      m_GuidHigh: 6063219766514788665
     m_Size: {x: 1, y: 1.3242857}
     m_SpecifySize: 1
-    m_Name: Ada
+    m_Name: AdaMyBeloved
     m_Texture: {fileID: 0}
