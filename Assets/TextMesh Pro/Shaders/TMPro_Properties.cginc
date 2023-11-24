@@ -2,7 +2,7 @@
 uniform sampler2D	_FaceTex;					// Alpha : Signed Distance
 uniform float		_FaceUVSpeedX;
 uniform float		_FaceUVSpeedY;
-uniform fixed4		_FaceColor;					// RGBA : Color + Opacity
+uniform fixed4		_FaceColor;	
 uniform float		_FaceDilate;				// v[ 0, 1]
 uniform float		_OutlineSoftness;			// v[ 0, 1]
 

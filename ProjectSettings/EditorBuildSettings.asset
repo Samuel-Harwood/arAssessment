@@ -8,18 +8,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Workshop5.unity
     guid: fa9a6b39ccd820e44926f58039ff10aa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TitleScreen.unity
     guid: 9fe03a7027bfd8940a7ed094512957f1
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Workshop4.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/RulesScreen.unity
     guid: 0926bbaca2d39ed45a7f0c30658a7072
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AdaLovelace.unity
     guid: f939ef162767ad547a5bc0b40ccf0447
+  - enabled: 0
+    path: Assets/Reflective UI/Scenes/ExampleScene.unity
+    guid: 39de638764bfe324c8c03cea104e66ee
+  - enabled: 0
+    path: Assets/Scenes/Issac Text.unity
+    guid: 7fa7c360587be8f49932aed15ff10717
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c89ea5f06ecd0a141aa235738a3f6e43, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: fefa97fd648636a439bb0f5140e6d474, type: 2}
