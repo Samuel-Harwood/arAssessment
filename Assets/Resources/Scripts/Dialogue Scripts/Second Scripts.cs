@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SecondScripts : MonoBehaviour
 {
     public TextMeshProUGUI DialogueText;
-    public string[] Sentences;
+    public string[] Sentences1;
     private int Index = 0;
     public float DialogueSpeed;
     private Touch theTouch;
@@ -36,37 +36,45 @@ public class SecondScripts : MonoBehaviour
             // Check if the touch phase is ended
             if (theTouch.phase == TouchPhase.Ended)
             {
-                NextSentence();
+                NextSentence1();
             }
         }
     }
 
-    void NextSentence()
+    void NextSentence1()
     {
-        if (Index <= Sentences.Length - 1)
+        if (Index <= Sentences1.Length - 1)
         {
-      
-            if (Index == Sentences.Length - 1)
+            if (Index == Sentences1.Length - 2)
+            {
+                treasure.SetActive(false);
+            }
+
+            if (Index == Sentences1.Length - 1)
             {
                 Debug.Log("Out");
                 // Deactivate the game object
                 DialogueText.text = "";
                 thisthing.SetActive(false);
                 onboarding.SetActive(true);
-                treasure.SetActive(false);
+
             }
             else
             {
                 DialogueText.text = "";
-                StartCoroutine(WriteSentence());
+                StartCoroutine(WriteSentence1());
             }
 
         }
+
+
+
+
     }
 
-    IEnumerator WriteSentence()
+    IEnumerator WriteSentence1()
     {
-        foreach (char Character in Sentences[Index].ToCharArray())
+        foreach (char Character in Sentences1[Index].ToCharArray())
         {
             source.PlayOneShot(clip);
             DialogueText.text += Character;

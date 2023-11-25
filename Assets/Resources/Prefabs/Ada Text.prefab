@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5730182569892264702}
   - component: {fileID: 8980303956417019416}
   - component: {fileID: 267771428327247344}
-  - component: {fileID: 2237363386411901556}
+  - component: {fileID: 651003858576431225}
   m_Layer: 0
   m_Name: Ada Text
   m_TagString: Untagged
@@ -214,11 +214,11 @@ MonoBehaviour:
   m_ExcludeUITouches: 1
   m_ARSessionOrigin: {fileID: 0}
   m_Annotations:
-  - m_AnnotationVisualization: {fileID: 0}
+  - m_AnnotationVisualization: {fileID: 9023095865942179299}
     m_MaxFOVCenterOffsetAngle: 3.14
     m_MinAnnotationRange: 0
     m_MaxAnnotationRange: 0
---- !u!114 &2237363386411901556
+--- !u!114 &651003858576431225
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3390043153461009422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e06673c7fa35324990a9bdeb988c0c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d7ac972008955447acee5c11096b593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4330023906505334729

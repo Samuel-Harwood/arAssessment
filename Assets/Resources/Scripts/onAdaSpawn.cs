@@ -2,20 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class onSpawn : MonoBehaviour
+public class onAdaSpawn : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     void Start()
     {
-        //GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
-
-        //foreach (GameObject tre in treasure)
-        //{
-        //    tre.SetActive(true);
-        //}
-
-
-
         GameObject[] spawn = GameObject.FindGameObjectsWithTag("spawn");
         foreach (GameObject spawnObject in spawn)
         {
@@ -32,8 +23,24 @@ public class onSpawn : MonoBehaviour
         {
             tre.SetActive(true);
         }
+        //StartCoroutine(startTime());
 
     }
 
 
+
+    //IEnumerator startTime()
+    //{
+    //    Debug.Log("Start wait");
+    //    yield return new WaitForSeconds(3f);
+    //    GameObject[] ada = GameObject.FindGameObjectsWithTag("ada");
+    //    foreach (GameObject ad in ada)
+    //    {
+    //        ad.SetActive(true);
+    //    }
+
+    //    Debug.Log("End wait");
+    //    // Do something else
+    //}
 }
+ 
