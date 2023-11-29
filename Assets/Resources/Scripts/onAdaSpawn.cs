@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class onAdaSpawn : MonoBehaviour
 {
-
     void Start()
     {
         GameObject[] spawn1 = GameObject.FindGameObjectsWithTag("spawn1");
@@ -15,16 +14,15 @@ public class onAdaSpawn : MonoBehaviour
         }
 
 
-
-        //GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
-        //if (treasure.Length == 0)
-        //{
-        //    Debug.LogWarning("No game objects found with tag 'treasure'.");
-        //}
-        //foreach (GameObject tre in treasure)
-        //{
-        //    tre.SetActive(true);
-        //}
+        GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
+        if (treasure.Length == 0)
+        {
+            Debug.LogWarning("No game objects found with tag 'treasure'.");
+        }
+        foreach (GameObject tre in treasure)
+        {
+            tre.SetActive(true);
+        }
         //StartCoroutine(startTime());
 
     }

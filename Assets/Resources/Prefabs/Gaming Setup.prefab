@@ -222,11 +222,10 @@ GameObject:
   - component: {fileID: 1353052783584946794}
   - component: {fileID: 1817484951846427212}
   - component: {fileID: 77679145863687927}
-  - component: {fileID: 6252817716566501115}
   - component: {fileID: 1061952237256126064}
   - component: {fileID: 7595519751116577828}
   m_Layer: 0
-  m_Name: apple found
+  m_Name: apple
   m_TagString: apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,28 +300,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6252817716566501115
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4457294164174847722}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!222 &1061952237256126064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -350,8 +327,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 9.999998, y: 2.0099227, z: 11.157823}
-  m_Center: {x: 0, y: -0.46736363, z: 0.7668963}
+  m_Size: {x: 9.999998, y: 2.8439686, z: 11.157823}
+  m_Center: {x: 0, y: -0.050340448, z: 0.7668962}
 --- !u!1 &8018621992061488997
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,6 +344,7 @@ GameObject:
   - component: {fileID: 250828971969450644}
   - component: {fileID: 802301271382182500}
   - component: {fileID: 7519545914158895499}
+  - component: {fileID: -1414367812595737210}
   m_Layer: 0
   m_Name: Gaming Setup
   m_TagString: knight
@@ -862,6 +840,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e06673c7fa35324990a9bdeb988c0c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1414367812595737210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8018621992061488997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccf69bc5e900cd4fbc4b2ed3815fc79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  childPrefab: {fileID: 6373751914879497292, guid: 1e81897fcfa7c384db1da6da07c95e5a, type: 3}
 --- !u!1001 &257609263927545352
 PrefabInstance:
   m_ObjectHideFlags: 0

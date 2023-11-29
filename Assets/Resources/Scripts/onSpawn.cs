@@ -23,6 +23,8 @@ public class onSpawn : MonoBehaviour
             Destroy(spawnObject);
         }
 
+
+
         GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
         if (treasure.Length == 0)
         {

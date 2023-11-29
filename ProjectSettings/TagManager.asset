@@ -11,6 +11,7 @@ TagManager:
   - ada
   - spawn1
   - Somethings
+  - spawn2
   layers:
   - Default
   - TransparentFX

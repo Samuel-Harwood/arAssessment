@@ -387,6 +387,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1341287324832553858, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1841684988357491408, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.261
@@ -479,7 +483,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: apple
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1341287324832553858, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
     m_RemovedGameObjects:
     - {fileID: 599194419439722263, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
     m_AddedGameObjects:
@@ -492,7 +497,7 @@ PrefabInstance:
       addedObject: {fileID: -7391637597659262162}
     - targetCorrespondingSourceObject: {fileID: 7234245502813113572, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2096952159258367105}
+      addedObject: {fileID: 2281917062071826739}
   m_SourcePrefab: {fileID: 100100000, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
 --- !u!1 &5992486560699635135 stripped
 GameObject:
@@ -633,7 +638,7 @@ MonoBehaviour:
     m_MaxFOVCenterOffsetAngle: 3.14
     m_MinAnnotationRange: 0.5
     m_MaxAnnotationRange: 4
---- !u!114 &2096952159258367105
+--- !u!114 &2281917062071826739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
