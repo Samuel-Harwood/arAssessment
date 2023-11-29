@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7125894407370870620}
   m_Layer: 0
   m_Name: AR Annotation Holder
-  m_TagString: Untagged
+  m_TagString: apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,15 +24,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4264084975067085231}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.029, y: -0.52, z: -0.07396281}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.029, y: -0.01, z: -0.074}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8975576194676939176}
   - {fileID: 6424797027724785325}
   m_Father: {fileID: 6060742238502157293}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &5060065330072319300
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,10 +387,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1841684988357491408, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.261
-      objectReference: {fileID: 0}
     - target: {fileID: 2743816114183278734, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_TagString
       value: apple
@@ -403,13 +399,9 @@ PrefabInstance:
       propertyPath: m_Sensitivity
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 6809682464827553944, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
-      propertyPath: m_Radius
-      value: 0.29
-      objectReference: {fileID: 0}
     - target: {fileID: 7234245502813113572, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_Name
-      value: Apple Annotated Variant
+      value: Annotated Ada Apple
       objectReference: {fileID: 0}
     - target: {fileID: 7321199333294874729, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_TagString
@@ -480,8 +472,7 @@ PrefabInstance:
       value: apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 599194419439722263, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7156415279097520822, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       insertIndex: -1

@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class SecondScripts : MonoBehaviour
+public class ThirdScripts : MonoBehaviour
 {
     public TextMeshProUGUI DialogueText;
     public string[] Sentences1;
@@ -13,7 +13,7 @@ public class SecondScripts : MonoBehaviour
     public float DialogueSpeed;
     private Touch theTouch;
     public GameObject thisthing;
-   // public GameObject onboarding;
+    // public GameObject onboarding;
     public GameObject treasure;
     public AudioSource source;
     public AudioClip clip;
@@ -59,7 +59,7 @@ public class SecondScripts : MonoBehaviour
                 DialogueText.text = "";
                 thisthing.SetActive(false);
                 //onboarding.SetActive(true);
-                SceneManager.LoadScene("AdaLovelace");
+                SceneManager.LoadScene("Computer");
 
 
             }

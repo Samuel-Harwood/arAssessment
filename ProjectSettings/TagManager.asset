@@ -9,6 +9,8 @@ TagManager:
   - spawn
   - treasure
   - ada
+  - spawn1
+  - Somethings
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - Particles
   - Water
   - UI
-  - 
+  - Apple
   - 
   - 
   - 

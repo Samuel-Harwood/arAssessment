@@ -7,22 +7,24 @@ public class onAdaSpawn : MonoBehaviour
 
     void Start()
     {
-        GameObject[] spawn = GameObject.FindGameObjectsWithTag("spawn");
-        foreach (GameObject spawnObject in spawn)
+        GameObject[] spawn1 = GameObject.FindGameObjectsWithTag("spawn1");
+        foreach (GameObject spawnObject in spawn1)
         {
             spawnObject.SetActive(false);
             Destroy(spawnObject);
         }
 
-        GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
-        if (treasure.Length == 0)
-        {
-            Debug.LogWarning("No game objects found with tag 'treasure'.");
-        }
-        foreach (GameObject tre in treasure)
-        {
-            tre.SetActive(true);
-        }
+
+
+        //GameObject[] treasure = GameObject.FindGameObjectsWithTag("treasure");
+        //if (treasure.Length == 0)
+        //{
+        //    Debug.LogWarning("No game objects found with tag 'treasure'.");
+        //}
+        //foreach (GameObject tre in treasure)
+        //{
+        //    tre.SetActive(true);
+        //}
         //StartCoroutine(startTime());
 
     }
