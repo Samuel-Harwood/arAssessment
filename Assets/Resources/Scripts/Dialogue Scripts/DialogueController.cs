@@ -10,6 +10,7 @@ public class DialogueController : MonoBehaviour
     private int Index = 0;
     public float DialogueSpeed;
     private Touch theTouch;
+
     public GameObject thisthing;
     public GameObject tresure;
     public GameObject onboarding;

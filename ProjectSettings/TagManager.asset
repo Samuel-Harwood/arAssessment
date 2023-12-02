@@ -12,6 +12,8 @@ TagManager:
   - spawn1
   - Somethings
   - spawn2
+  - completelyNew
+  - evenNewer
   layers:
   - Default
   - TransparentFX

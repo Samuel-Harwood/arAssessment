@@ -2936,6 +2936,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -490.00012
       objectReference: {fileID: 0}
+    - target: {fileID: 7786459565221151854, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7942134013571187917, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8170635093161549452, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2949,7 +2957,8 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2449393632842065191, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
@@ -3109,6 +3118,10 @@ PrefabInstance:
     - target: {fileID: 693092898657660656, guid: c0a43467345669c4baefb631c542d522, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143815836685368791, guid: c0a43467345669c4baefb631c542d522, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2261518798933905506, guid: c0a43467345669c4baefb631c542d522, type: 3}
       propertyPath: m_Pivot.x
@@ -3494,6 +3507,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -803
       objectReference: {fileID: 0}
+    - target: {fileID: 7923145540930738949, guid: 40164d6dff4663241ad2f845861cffef, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053427420937837478, guid: 40164d6dff4663241ad2f845861cffef, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8113313960539357671, guid: 40164d6dff4663241ad2f845861cffef, type: 3}
       propertyPath: m_Camera
       value: 
@@ -3511,7 +3532,8 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2307632826451835468, guid: 40164d6dff4663241ad2f845861cffef, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40164d6dff4663241ad2f845861cffef, type: 3}

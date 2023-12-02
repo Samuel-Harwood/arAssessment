@@ -20,6 +20,12 @@ public class DisableButtonOnRaycast : MonoBehaviour
         {
             app.SetActive(false);
         }
+        GameObject[] knight = GameObject.FindGameObjectsWithTag("completelyNew");
+
+        foreach (GameObject kn in knight)
+        {
+            kn.SetActive(false);
+        }
     }
 
     private void Update()

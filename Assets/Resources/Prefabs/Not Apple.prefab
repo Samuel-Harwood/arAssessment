@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3840742412975321694}
   m_Layer: 0
   m_Name: Plane (1)
-  m_TagString: knight
+  m_TagString: completelyNew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 8204598564581030616}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: knight
+  m_TagString: completelyNew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,10 +344,9 @@ GameObject:
   - component: {fileID: 250828971969450644}
   - component: {fileID: 802301271382182500}
   - component: {fileID: 7519545914158895499}
-  - component: {fileID: -1414367812595737210}
   m_Layer: 0
-  m_Name: Gaming Setup
-  m_TagString: knight
+  m_Name: Not Apple
+  m_TagString: completelyNew
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -840,19 +839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e06673c7fa35324990a9bdeb988c0c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-1414367812595737210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8018621992061488997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ccf69bc5e900cd4fbc4b2ed3815fc79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  childPrefab: {fileID: 6373751914879497292, guid: 1e81897fcfa7c384db1da6da07c95e5a, type: 3}
 --- !u!1001 &257609263927545352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -871,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1438551673247200, guid: b62a967d3de8c1046995333b45ae13f4, type: 3}
       propertyPath: m_TagString
-      value: knight
+      value: completelyNew
       objectReference: {fileID: 0}
     - target: {fileID: 4723405714696990, guid: b62a967d3de8c1046995333b45ae13f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -953,7 +939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 8244cab4f6e05914fad738744cafc22a, type: 3}
       propertyPath: m_TagString
-      value: knight
+      value: completelyNew
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8244cab4f6e05914fad738744cafc22a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1119,7 +1105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9ff9d955d4a9c4c54b433aed95c68308, type: 3}
       propertyPath: m_TagString
-      value: knight
+      value: completelyNew
       objectReference: {fileID: 0}
     - target: {fileID: 3833836350996402130, guid: 9ff9d955d4a9c4c54b433aed95c68308, type: 3}
       propertyPath: m_CastShadows

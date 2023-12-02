@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
-public class ThirdScripts : MonoBehaviour
+public class FourthScript : MonoBehaviour
 {
     public TextMeshProUGUI DialogueText;
     public string[] Sentences1;
@@ -18,21 +18,10 @@ public class ThirdScripts : MonoBehaviour
     public GameObject treasure;
     public AudioSource source;
     public AudioClip clip;
-    public GameObject nextOnboard;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    NextSentence();
-        //}
-
         if (Input.touchCount > 0)
         {
             theTouch = Input.GetTouch(0);
@@ -60,11 +49,8 @@ public class ThirdScripts : MonoBehaviour
                 // Deactivate the game object
                 DialogueText.text = "";
                 thisthing.SetActive(false);
-                //onboarding.SetActive(true);
-                nextOnboard.SetActive(true);
-                //trackedImageManager.enabled = false;
 
-                //SceneManager.LoadScene("Computer");
+                SceneManager.LoadScene("Computer");
 
 
             }
