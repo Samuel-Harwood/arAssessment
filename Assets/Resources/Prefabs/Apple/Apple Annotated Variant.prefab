@@ -416,6 +416,10 @@ PrefabInstance:
       value: Apple Annotated Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7321199333294874729, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7321199333294874729, guid: 777f2426c1beb8b4d92e6574c0d2a4a6, type: 3}
       propertyPath: m_TagString
       value: apple
       objectReference: {fileID: 0}
