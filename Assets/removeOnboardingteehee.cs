@@ -9,7 +9,7 @@ public class removeOnboardingteehee : MonoBehaviour
     void Start()
     {
 
-        GameObject[] spawn2 = GameObject.FindGameObjectsWithTag("evenNewer");
+        GameObject[] spawn2 = GameObject.FindGameObjectsWithTag("spawn1");
         foreach (GameObject spawnObject in spawn2)
         {
             spawnObject.SetActive(false);

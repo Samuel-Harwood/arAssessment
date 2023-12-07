@@ -925,19 +925,25 @@ PrefabInstance:
       objectReference: {fileID: 1867676739}
     - target: {fileID: 1243727911161838662, guid: e7ba186030357694a8de6d5c061de9db, type: 3}
       propertyPath: Sentences.Array.size
-      value: 6
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243727911161838662, guid: e7ba186030357694a8de6d5c061de9db, type: 3}
+      propertyPath: Sentences.Array.data[1]
+      value: Welcome, adventurer! I'm Sir Isaac Newton. Can you help me find my fallen
+        apples I have misplaced around this building?
       objectReference: {fileID: 0}
     - target: {fileID: 1243727911161838662, guid: e7ba186030357694a8de6d5c061de9db, type: 3}
       propertyPath: Sentences.Array.data[2]
-      value: Here, let me show you one I was saving for later...
+      value: Here, let me show you one I was saving for later... ...oh, that reminds
+        me!
       objectReference: {fileID: 0}
     - target: {fileID: 1243727911161838662, guid: e7ba186030357694a8de6d5c061de9db, type: 3}
       propertyPath: Sentences.Array.data[3]
-      value: ...oh, that reminds me!
+      value: any apples you find can be put in this treasure chest, thanks!
       objectReference: {fileID: 0}
     - target: {fileID: 1243727911161838662, guid: e7ba186030357694a8de6d5c061de9db, type: 3}
       propertyPath: Sentences.Array.data[4]
-      value: any apples you find can be put in this treasure chest, thanks!
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1243727911161838662, guid: e7ba186030357694a8de6d5c061de9db, type: 3}
       propertyPath: Sentences.Array.data[5]
@@ -2888,25 +2894,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
       propertyPath: Sentences1.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
       propertyPath: Sentences1.Array.data[0]
-      value: Good work on getting that apple. You know...
+      value: Good work on getting that apple. You know some poeple think I came up
+        with the system of gravitation after an apple hit me on the head under a
+        tree
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
       propertyPath: Sentences1.Array.data[1]
-      value: Some poeple think I came up with the system of gravitation after an
-        apple hit me on the head under a tree
-      objectReference: {fileID: 0}
-    - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
-      propertyPath: Sentences1.Array.data[2]
       value: anyways, enough chit chat
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
-      propertyPath: Sentences1.Array.data[3]
+      propertyPath: Sentences1.Array.data[2]
       value: I remember giving an apple to my friend Ada, she should be upstairs
         somewhere!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
+      propertyPath: Sentences1.Array.data[3]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
       propertyPath: Sentences1.Array.data[4]

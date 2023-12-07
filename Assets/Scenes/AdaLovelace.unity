@@ -131,9 +131,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 172280121}
     m_Modifications:
+    - target: {fileID: 22871765396601599, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
     - target: {fileID: 724453282285752682, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: -831
+      objectReference: {fileID: 0}
+    - target: {fileID: 750096799485563781, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389162726233939364, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2522710522677718763, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_Camera
@@ -144,12 +156,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3136822279147840649, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3136822279147840649, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
       value: evenNewer
       objectReference: {fileID: 0}
     - target: {fileID: 4318721302248706781, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
-      value: evenNewer
+      value: spawn1
       objectReference: {fileID: 0}
     - target: {fileID: 4610142804983959684, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_IsActive
@@ -157,11 +173,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4610142804983959684, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
-      value: evenNewer
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5578887515192978093, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
       objectReference: {fileID: 0}
     - target: {fileID: 5693982523769791214, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
-      value: evenNewer
+      value: spawn1
       objectReference: {fileID: 0}
     - target: {fileID: 6280221526874974554, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_Name
@@ -169,11 +189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6280221526874974554, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6280221526874974554, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
-      value: evenNewer
+      value: spawn1
       objectReference: {fileID: 0}
     - target: {fileID: 6548317768340936620, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -259,13 +279,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7919407352316818808, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263539934985256147, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8263539934985256147, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
-      value: evenNewer
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8403571905032691037, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8403571905032691037, guid: e92c1bb8954ddca449f90d8fbfc301ac, type: 3}
       propertyPath: m_TagString
-      value: evenNewer
+      value: spawn1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

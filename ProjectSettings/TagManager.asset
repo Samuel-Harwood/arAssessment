@@ -14,6 +14,7 @@ TagManager:
   - spawn2
   - completelyNew
   - evenNewer
+  - onComputer
   layers:
   - Default
   - TransparentFX

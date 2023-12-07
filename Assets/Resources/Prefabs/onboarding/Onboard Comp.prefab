@@ -12,6 +12,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 120016046384509199, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 414273601790702422, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574252983881778434, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
     - target: {fileID: 2112912096703565664, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
       propertyPath: m_RenderMode
       value: 1
@@ -41,6 +53,14 @@ PrefabInstance:
 
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5390696184632392918, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5547617014160350552, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
       objectReference: {fileID: 0}
     - target: {fileID: 6535041334821292280, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
       propertyPath: m_text
@@ -140,13 +160,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7599597552603285713, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
       propertyPath: m_Name
-      value: Onboarding Find an image Variant
+      value: Onboard Comp
       objectReference: {fileID: 0}
     - target: {fileID: 7599597552603285713, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7599597552603285713, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
+      propertyPath: m_TagString
+      value: spawn1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166701154091696997, guid: a1f287edc40aa124aacefc1e5ddc33e1, type: 3}
       propertyPath: m_TagString
       value: spawn1
       objectReference: {fileID: 0}
