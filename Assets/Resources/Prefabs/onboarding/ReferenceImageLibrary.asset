@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Home Screen cropped
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5238735713989332446
+      m_GuidHigh: 12877835103146984343
+    m_SerializedTextureGuid:
+      m_GuidLow: 1554909014931292200
+      m_GuidHigh: 2038775493108167625
+    m_Size: {x: 1, y: 1.328125}
+    m_SpecifySize: 1
+    m_Name: FF7
+    m_Texture: {fileID: 0}

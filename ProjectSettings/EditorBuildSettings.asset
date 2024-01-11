@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Computer.unity
     guid: 75451a351450722439c4b936997abbf0
+  - enabled: 1
+    path: Assets/Scenes/apples.unity
+    guid: 7ab2ad7a9526d664f9bc9ce308b07834
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c89ea5f06ecd0a141aa235738a3f6e43, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: fefa97fd648636a439bb0f5140e6d474, type: 2}

@@ -2908,7 +2908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
       propertyPath: Sentences1.Array.data[2]
-      value: I remember giving an apple to my friend Ada, she should be upstairs
+      value: I remember giving an apple to my videogame friends, they should be upstairs
         somewhere!
       objectReference: {fileID: 0}
     - target: {fileID: 5100146976072087115, guid: 057e0eefa5cd8c340a896160585f7e18, type: 3}
